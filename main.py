@@ -14,7 +14,7 @@ COMPLETION_DATE_FILE = "completion_dates.json"
 manager = data_manager.DataManager()
 auth_instance = auth.Auth(manager)
 apply_custom_styles()
-
+# print()
 # Function to Load Completion Dates from JSON
 def load_completion_dates():
     if os.path.exists(COMPLETION_DATE_FILE):
